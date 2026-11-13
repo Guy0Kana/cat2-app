@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 <!DOCTYPE html><html><head><title>Sign Up</title>
 <style>body{font-family:sans-serif;max-width:380px;margin:60px auto}input{width:100%;padding:8px;margin:6px 0}button{padding:10px;width:100%}</style></head>
-<body><h2>Sign Up</h2><p><?= $msg ?></p>
+<body><h2>Create your CNS account</h2><p><?= $msg ?></p>
 <form method="POST">
 <input name="username" placeholder="Username" required>
 <input name="full_name" placeholder="Full name" required>
